@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>base conventor</title>
+        <!-- <script scr="inst.js"></script> -->
+        <script src="bb.js" ></script>
+        <script>
+            function inst()
+                    {
+                      var url = "instructions.html"; 
+                      window.open(url, "_blank");
+                      console.log(5);
+                    }
+        </script> 
+    </head>
+    <body>
+        <style>
+            #bigbox{
+                display: inline block;
+                width: 250px;
+                padding:20px;
+            }
+           
+            #Base{
+                width:70px;
+                padding:10px;
+            }
+            lable
+            {             
+                display:inline-block;
+             width: 100px;
+             height:50px;
+             margin:10px;
+             padding:0px;
+             box-sizing: border-box;
+            }
+            #form{
+                border-radius:18px;
+                background-image: linear-gradient(to top,red,white);
+                background-image: linear-gradient(to right,blue,green);
+                color:aqua;
+                width: 1000px;
+                padding:100px;
+                margin : auto ;
+                margin-top:100px;
+            }
+            h2{ text-align: center;}
+            
+            #Submit1{
+                width: 225px;
+                border-width: 4px;
+                padding:20px;
+                /* margin-top:58px; */
+                background:greenyellow
+            }
+            #Submit2{
+                width: 150px;
+                border-width: 4px;
+                padding:20px;
+                /* margin-top:58px; */
+                background:red
+            }
+            
+        </style>
+
+    
+
+    <div id="form">
+        <form name="calci" >
+            <h2>Enter the data</h2>
+            <lable> <h4>Enter data here :</h4></lable>
+            <input  type="text" id="bigbox" name="in1" required>
+            <input type="number" id="Base" name="in2" min="2" max="16" required >
+            
+
+            <lable ><h4>click confirm for answer :</h4></lable>
+            <input type="submit" value="confirm" name="numbers" id="Submit1" onclick=" results() ">
+
+
+            <input type="submit" value="Instructions" id="Submit2" onclick="inst()" formnovalidate>
+            
+
+
+            <lable ><h4>For base 2 :</h4></lable>
+            <input  type="number" id="bigbox" name="base2" readonly>
+            <input type="text" id="Base" value="2" readonly>
+
+            <lable for="text"><h4>For base 10 :</h4></lable>
+            <input id="bigbox" name="base10" readonly>
+            <input type="number"  id="Base" value="10" readonly>
+
+            <lable for="text"><h4>For base 3 :</h4></lable>
+            <input id="bigbox" name="base3" readonly>
+            <input type="number"  id="Base" value="3" readonly>
+
+            <lable for="text"><h4>For base 11 :</h4></lable>
+            <input id="bigbox" name="base11" readonly>
+            <input type="number"  id="Base" value="11" readonly>
+
+            <lable for="text"><h4>For base 4 :</h4></lable>
+            <input id="bigbox" name="base4" readonly>
+            <input type="number" id="Base" value="4" readonly>
+
+            <lable for="text"><h4>For base 12 :</h4></lable>
+            <input id="bigbox" name="base12" readonly>
+            <input type="number"  id="Base" value="12" readonly>
+
+            <lable for="text"><h4>For base 5 :</h4></lable>
+            <input id="bigbox" name="base5" readonly>
+            <input type="number"  id="Base" value="5" readonly>
+
+            <lable for="text"><h4>For base 13 :</h4></lable>
+            <input id="bigbox" name="base13" readonly>
+            <input type="number"  id="Base" value="13" readonly>
+
+            <lable for="text"><h4>For base 6 :</h4></lable>
+            <input id="bigbox" name="base6" readonly>
+            <input type="number"  id="Base" value="6" readonly>
+    
+
+            <lable for="text"><h4>For base 14 :</h4></lable>
+            <input id="bigbox" name="base14" readonly>
+            <input type="number"  id="Base" value="14" readonly>
+
+            <lable for="text"><h4>For base 7 :</h4></lable>
+            <input id="bigbox" name="base7" readonly>
+            <input type="number"  id="Base" value="7" readonly>
+
+            <lable for="text"><h4>For base 15 :</h4></lable>
+            <input id="bigbox" name="base15" readonly>
+            <input type="number"  id="Base" value="15" readonly>
+
+            <lable for="text"><h4>For base 8 :</h4></lable>
+            <input id="bigbox" name="base8" readonly>
+            <input type="number"  id="Base" value="8" readonly>
+
+            <lable for="text"><h4>For base 16 :</h4></lable>
+            <input id="bigbox" name="base16" readonly>
+            <input type="number" id="Base" value="16" readonly>
+
+            <lable for="text"><h4>For base 9 :</h4></lable>
+            <input id="bigbox" name="base9" readonly>
+            <input type="number" id="Base" value="9" readonly>
+
+        </form>
+    </div>
+</body>
+</html>
